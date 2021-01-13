@@ -87,4 +87,5 @@ console.log(DocIdent('00.000.001/0001-36', 'br')) //CNPJ informing code of count
 ```
 
 About author: [Alailson Barbosa Ribeiro](https://www.alailson.com.br)
-[logo]: https://secure.gravatar.com/avatar/f4a6fbf1b704b29c4236d964f5f5280c "Alailson Barbosa Ribeiro"
+============
+![alt text](https://secure.gravatar.com/avatar/f4a6fbf1b704b29c4236d964f5f5280c "Alailson Barbosa Ribeiro")

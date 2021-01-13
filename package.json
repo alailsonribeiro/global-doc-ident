@@ -1,5 +1,5 @@
 {
-  "name": "br-doc-identfier",
+  "name": "global-doc-ident",
   "version": "1.0.0",
   "description": "JavaScript identifier and validator for the number of Brazilian documents such as CPF and CNPJ returned in object as formatted version.",
   "main": "index.js",
@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/alailsonribeiro/br-doc-identfier.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [],
   "author": "Alailson Barbosa Ribeiro",
   "license": "MIT",
@@ -18,4 +21,5 @@
     "url": "https://github.com/alailsonribeiro/br-doc-identfier/issues"
   },
   "homepage": "https://github.com/alailsonribeiro/br-doc-identfier#readme"
+
 }
