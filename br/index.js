@@ -3,7 +3,7 @@
  * @ Create Time: 2020-12-23 13:20:41
  * @ I love do this ♡ Enlightened by God
  * @ Modified by: Your name
- * @ Modified time: 2021-01-13 10:51:56
+ * @ Modified time: 2021-01-14 13:21:30
  */
 /*
  cpf.cnpj.js Verifica se é CPF ou CNPJ 
@@ -16,20 +16,20 @@ module.exports = (doc) => {
     switch (doc.length) {
         case 11: return {
             type: 'CPF',
-            doc: doc,
-            msk: doc.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, "$1.$2.$3-$4"),
+            number: doc,
+            masked: doc.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, "$1.$2.$3-$4"),
             valid: valid = require('./CPF')(doc)
         }
         case 14: return {
             type: 'CNPJ',
-            doc: doc,
-            msk: doc.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/, "$1.$2.$3/$4-$5"),
+            number: doc,
+            masked: doc.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/, "$1.$2.$3/$4-$5"),
             valid: valid = require('./CNPJ')(doc)
         }
         default: return {
             type: 'UNKNOW',
-            doc: doc,
-            msk: '?'.repeat(doc.length),
+            number: doc,
+            masked: '?'.repeat(doc.length),
             valid: false
         }
     }
