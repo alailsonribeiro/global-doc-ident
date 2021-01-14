@@ -11,7 +11,7 @@ Identificador y validador de JavaScript para el número de documentos brasileño
 
 *How to use:
 ```
-const DocIdent = require('./index')
+const DocIdent = require('global-doc-ident')
 
 console.log(DocIdent('000.000.001-91')) //CPF Default Brazil
 console.log(DocIdent('000.000.001-91', 'br')) //CPF informing code of countrie
