@@ -7,9 +7,9 @@ Identificador JavaScript e validador da quantidade de documentos brasileiros com
 Identificador y validador de JavaScript para el número de documentos brasileños como CPF y CNPJ devueltos en el objeto como versión formateada.
 
 
-##Default use for Brazil Docs (CPF and CNPJ)
+## Default use for Brazil Docs (CPF and CNPJ)
 
-#How to use:
+# How to use:
 ```
 const DocIdent = require('global-doc-ident')
 
@@ -19,7 +19,7 @@ console.log(DocIdent('00.000.001/0001-36')) //CNPJ Default Brazil
 console.log(DocIdent('00.000.001/0001-36', 'br')) //CNPJ informing code of countrie
 
 ```
-##Return default Brazil
+## Return default Brazil
 
 ```
 {
@@ -57,7 +57,7 @@ console.log(DocIdent('00.000.001/0001-36', 'br')) //CNPJ informing code of count
 ```
 
 
-##Return from npm test
+## Return from npm test
 
 ```
 $ npm test
@@ -86,7 +86,7 @@ $ npm test
 
 ```
 
-##Join here -> Project at **GitHub** 
+## Join here -> Project at **GitHub** 
 
 If you are interested in contributing with new checkups for other types of documents related to Brazil and / or other countries, contact us by clicking on [New Issue] at link https://github.com/alailsonribeiro/global-doc-ident/issues of **GitHub**, for know how to get involved in the project.
 
