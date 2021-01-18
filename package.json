@@ -1,7 +1,7 @@
 {
   "name": "global-doc-ident",
-  "version": "1.0.5",
-  "description": "\"JavaScript identifier and validator for the number of Brazilian documents such as CPF and CNPJ returned in object as formatted version.\"",
+  "version": "1.0.6",
+  "description": "JavaScript identifier and validator for the number of Brazilian documents such as CPF and CNPJ returned in object as formatted version.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
@@ -18,6 +18,8 @@
     "MercadoPago",
     "PagSeguro",
     "PayPal",
+    "Identifier",
+    "Identificador",
     "API"
   ],
   "repository": {
