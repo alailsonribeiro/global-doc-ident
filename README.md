@@ -9,6 +9,17 @@ Identificador y validador de JavaScript para el número de documentos brasileño
 
 ## Default use for Brazil Docs (CPF and CNPJ)
 
+
+# How to install:
+
+Published in https://www.npmjs.com/package/global-doc-ident
+
+```
+
+$ npm i global-doc-ident
+
+```
+
 # How to use:
 ```
 const DocIdent = require('global-doc-ident')
